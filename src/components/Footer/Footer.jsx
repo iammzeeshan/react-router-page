@@ -1,5 +1,6 @@
 
 import { Link } from 'react-router-dom'
+import React from 'react';
 
 function Footer() {
     return (
@@ -13,10 +14,10 @@ function Footer() {
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
                             <h1 className="text-gray-600 text-3xl font-bold">
-                                your
+                                MiX
                             </h1>
                             <h1 className="text-orange-700 text-3xl font-bold">
-                                logo
+                                Web
                             </h1>
                             <p>®</p>
                         </Link>

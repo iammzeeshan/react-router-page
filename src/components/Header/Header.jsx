@@ -14,8 +14,8 @@ function Header() {
 
                 {/* Logo */}
                 <Link to="/" className='logo flex items-center'>
-                    <h1 className='text-gray-600 text-3xl font-bold'>your</h1>
-                    <h1 className='text-orange-700 text-3xl font-bold'>logo</h1>
+                    <h1 className='text-gray-600 text-3xl font-bold'>MiX</h1>
+                    <h1 className='text-orange-700 text-3xl font-bold'>Web</h1>
                     <p>®</p>
                 </Link>
 
@@ -34,9 +34,14 @@ function Header() {
                         Contact
                     </NavLink>
 
-                    <NavLink to="/github" className={navLinkClass}>
+                    <a
+                        href="https://github.com/iammzeeshan"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="hover:text-orange-700"
+                    >
                         Github
-                    </NavLink>
+                    </a>
 
                 </nav>
 
