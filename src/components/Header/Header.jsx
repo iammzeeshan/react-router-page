@@ -34,14 +34,9 @@ function Header() {
                         Contact
                     </NavLink>
 
-                    <a
-                        href="https://github.com/iammzeeshan"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="hover:text-orange-700"
-                    >
+                    <NavLink to="/github" className={navLinkClass}>
                         Github
-                    </a>
+                    </NavLink>
 
                 </nav>
 
